@@ -14,7 +14,6 @@ public class Student {
         this.name = name;
         this.qualification = qualification;
     }
-
     public void displayStudentDetails(){
         System.out.println("Enrollment ID - " + this.enrollmentId + "\tName - "+this.name + "\tQualification "+ this.qualification);
     }
